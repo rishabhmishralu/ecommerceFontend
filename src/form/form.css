@@ -1,0 +1,121 @@
+
+
+
+
+/* signup */
+.form{
+    
+    /* background-color: rgb(77, 200, 173); */
+    background-color: grey;
+    width: 50%;
+    position: absolute;
+    top: 25%;
+    right: 25%;
+    height: 435px;
+    text-align: center;
+    display: flex;
+    border-radius: 20px;
+
+    
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    /* width: 15%; */
+}
+.headingname{
+    color: white;
+    font-weight: 500;
+}
+.labelname{
+    color: white;
+    font-size: large;
+}
+.inputfield3{
+    width: 200px;
+    height: 25px;
+    margin: 10px;
+    border: 0px;
+}
+.inputfield1,.inputfield2{
+   
+    width: 200px;
+    height: 25px;
+    margin: 10px;
+    border: 0px;
+     margin-left: 59px;
+}
+.inputfield4{
+  
+    width: 200px;
+    height: 25px;
+    margin: 10px;
+    border: 0px;
+    margin-left: 34px;
+}
+.singupbutton{
+    color: white;
+    background-color: transparent;
+    border:1px white solid ;
+    width: 20%;
+    height: 30px
+}
+
+
+
+/* login */
+
+.loginpassword{
+    width: 200px;
+    height: 25px;
+    margin: 10px;
+    border: 0px;
+    margin-left: 31px;
+}
+.labellogin{
+    color: white;
+    font-size: large;
+    margin-left: 12px;
+}
+.loginheading{
+    color: white;
+}
+.logologin{
+    width: 50%;
+}
+
+.image-login{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signupimage{
+    border-radius: 140px;
+}
+
+
+
+
+@media screen and (max-width:786px) and (min-width:320px) {
+    .form{
+        position: static;
+       display: block;
+       width: 100%;
+
+    }
+    .image-login{
+        display: none;
+    }
+    
+    .login-image{
+        display: none;
+    }  
+
+
+
+
+
+
+}

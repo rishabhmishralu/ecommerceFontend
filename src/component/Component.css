@@ -1,0 +1,440 @@
+.ul{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: gray;
+    color: black;
+}
+.header{text-align: center;}
+
+.navlink{
+    text-decoration: none;
+}
+.active{
+    color: white;
+}
+.hover{
+    background-color:white;
+    margin-right: 249px;
+    margin-left: 250px;
+    display: block;
+    position: absolute;
+}
+
+
+
+
+/* slider */
+.sliderimg{
+    width: 100%;
+    height:320px;
+}
+
+/* sliderProduct */
+
+
+/* maincard */
+
+
+
+/* ipda */
+.cardIpad{
+    text-align: center;
+    
+}
+.imageipad{
+    width: 371px;
+}
+
+
+/* home */
+.home-home{
+    display: flex;
+    margin: 20px;
+}
+.tv{
+    width: 50%;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pod{
+    width: 50%;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home-span{
+    font-size: 64px;
+    line-height: 1;
+    font-weight: 700;
+}
+.span{
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+    max-width: 980px;
+    text-align: center;
+    margin-bottom: 51px;
+}
+
+/* ipone */
+.price{
+    display: flex;
+  justify-content: space-evenly;
+}
+.onprice{
+    text-decoration: line-through;
+  
+}
+.main-card{
+    background-color: rgb(252, 255, 254);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 72px;
+}
+.card{
+    /* width: 300px;
+    height: 40px; */
+    border:3px solid rgb(255, 251, 251); ;
+    text-align: center;
+    margin: 10px;
+}
+.image{
+    width: 253px;
+}
+.price-iphone{
+display: flex;
+/* 
+justify-content: space-evenly; */
+}
+.price{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+.oPrice{
+    text-decoration: line-through;
+    opacity: .4;
+}
+
+
+
+/* fotter */
+/* .th{
+    width: 100%;
+} */
+.th{
+    padding-left: 20px;
+    font-size: large;
+    font-weight: 500;
+    color: gray;
+}
+.td{
+    padding-left: 20px;
+    opacity: .5;
+    font-size: 15px;
+}
+
+.payment-img{
+    width: 70px;
+    height: 44px;
+    margin: 10px;
+}
+
+
+.footer-1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-1-1{
+text-align: center;
+width: 161px;
+}
+
+
+.footer-2{
+    display: flex;
+    max-height: 120px;
+    border: 1px solid  black;
+    overflow-x: auto;
+    margin-left: 375px;
+    width: 548px;
+}
+.footer-2::-webkit-scrollbar{
+    width: 0;
+}
+.footer-2-1{
+   min-width: 110px;
+    height: 110px;
+    border: 2px solid,black;
+    background-color: aqua;
+    margin: 5px;
+    line-height: 110px;
+    background-color: aquamarine;
+
+}
+hr{
+    color: gray;
+    opacity: 0.2;
+}
+
+
+
+
+
+
+
+
+
+/* store */
+ .storemenu{
+    margin-right: 249px;
+    margin-left: 250px;
+    display:none;
+  
+ } 
+
+
+
+.fotter-pay{
+    display: flex;
+}
+.payment-1{
+    display: flex;
+    width: 60%;
+}
+.i-14{
+    height: 300px;
+    width: 100%;
+}
+.featured{
+    text-align: center;
+}
+.store-2{
+    
+    min-width: 110px;
+    height: 112px;
+    border: 2px solid,black;
+    background-color: aqua;
+    margin: 5px;
+    line-height: 110px;
+    background-color: #cde0d9;
+    background-color: #668379;
+}
+.storeSpan{
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    color: #6e6e73;
+    margin-left: 150px;
+}
+.footer-2-1 {
+    min-width: 110px;
+    height: 112px;
+    border: 2px solid,black;
+    background-color: aqua;
+    margin: 5px;
+    line-height: 110px;
+    background-color: #cde0d9;
+    background-color: #668379;
+}
+
+
+.storeSlider{
+    display: flex;
+max-height: 181px;
+border: -18px solid black;
+overflow-x: auto;
+margin-left: 150px;
+width: 1133px;}
+
+.storeSlider::-webkit-scrollbar{
+    width: 0;
+}
+
+/* bar */
+.bar{
+    display: flex;
+    margin: 20px;
+}
+.lang-bar{
+   display: flex;
+   width: 60%;
+   justify-content: center;
+}
+.card-bar{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+
+}
+
+
+
+/* mac */
+.mac{
+    display: flex;
+    flex-wrap: wrap;
+}
+.image-mac{
+     width: 500px;
+     height: 350px;
+     border-radius:25px ;
+}
+.mac-card{
+      margin: 56px;
+}
+.mac-button{
+    display: flex;
+   justify-content: center;
+}
+
+
+/* cart */
+ .cartCard{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.cartimage{
+    justify-content: center;
+    display: flex;
+    width: 25%;
+}
+/* .cartqua{
+    /* width: 30%; */
+*/
+.cartprice{
+    width: 15%;
+}
+.cartImage{
+    width: 30%;
+}
+.cartbutton{
+    height: 30%;
+}
+.cartButton{
+    display: flex;
+    align-items: center;
+}
+.total{
+    display: flex;
+  justify-content: space-between;
+}
+
+.bars{
+    display: none;
+}
+
+.paybutton{
+width: 30%;
+height: 50%;
+border-radius: 15px;
+background: #1d7fd4;
+}
+.addbutton{
+    background-color: #1d7fd4;
+    border: none;
+    border-radius: 15px;
+    width: 108px;
+    height:30px;
+}
+.increment{
+    display: flex;
+}
+
+@media screen and (max-width:768px) and (min-width:320px) {
+    .sliderimg{
+        display: none;
+    }
+    /* .bar{
+        display: block;
+        background-color: grey;
+    } */
+    .lang-bar{
+        display: none;
+    }
+    .header{
+        position: relative;
+        bottom: 45px;
+        text-align: center;
+        background-color: rgb(15, 122, 15);
+    }
+    .card-bar{
+        width: 100%;
+        position: relative;
+        top:60px
+    }
+    .bars{
+
+     display: block;
+     position: absolute;
+     top: 61px;
+     right: 18px;
+     width: 43px;
+     height: 41px;
+    background: black;
+    color: white;
+/* 
+    background-color: gray; */
+
+    }
+    .ul{
+        display: none;
+    }
+    .active{
+        color: RED;
+    }
+
+    .hover{
+        margin: 0px;
+        display: none;
+    }
+    .tablefotter{
+        display: none;
+    }
+
+    .main-card{
+        display: block;
+    }
+
+    .cartCard{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .cartButton-div{
+        display: block;
+    }
+    .cartimage{
+        width: 50%;
+    }
+    .cart-main{
+     
+    }
+    .total{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .paybutton{
+        width: 100%;
+        height: 30px;
+        
+    }
+    .price{
+        display: none;
+    }
+    .increment{
+        display: flex;
+    }
+
+}
