@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
 
 import  img1 from '../Image/1.jpg'
-import  img2 from '../Image/2.png'
+import  img2 from '../Image/2.jpg'
 import  img3 from '../Image/3.jpg'
-import  img4 from '../Image/4.png'
+import  img4 from '../Image/4.jpg'
 import  img5 from '../Image/5.jpg'
 
 function Slider() {
@@ -13,7 +13,7 @@ function Slider() {
   useEffect(()=>{
     setInterval(() => {
       setimg(img=>img<5?img+1:0)
-}, 3000);
+},3000);
   },[])
 
   return (

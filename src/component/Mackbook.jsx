@@ -10,9 +10,9 @@ const Mackbook = ({addtoCart}) => {
     <div className='mac'>
       {
         context.filter((data)=>data.catagory==="macbook"
-        ).map((item)=>
+        ).map((item,index)=>
         <>
-        <div className='mac-card'>
+        <div className='mac-card' key={index}>
            
            <img src={item.image} alt="" className='image-mac' />
            <h3 style={{textAlign:"center"}}>{item.name}</h3>

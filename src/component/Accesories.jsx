@@ -17,9 +17,9 @@ const Iphone = ({addtoCart}) => {
     < div className="main-card">
       {context
         .filter((data) => data.catagory === "Accessories")
-        .map((item) => (
+        .map((item,index) => (
 
-          <div className="card" >
+          <div className="card" key={index}>
                
               
               <img src={item.image} alt="" className="image" />

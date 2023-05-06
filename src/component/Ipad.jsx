@@ -13,7 +13,7 @@ export const Ipad = ({addtoCart}) => {
 {context
           .filter((data) => data.catagory === "Ipad")
           .map((item, index) => (
-          <div className="cardIpad">
+          <div className="cardIpad" key={index}>
             
 
     
